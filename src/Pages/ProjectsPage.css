@@ -1,0 +1,8 @@
+.project-container {
+  display: flex;
+  justify-content: center;     /* 가운데 정렬 */
+  align-items: flex-start;
+  flex-wrap: wrap;             /* 넘칠 경우 다음 줄로 */
+  gap: 32px;                   /* 카드 간 간격 */
+  margin-top: 40px;
+}

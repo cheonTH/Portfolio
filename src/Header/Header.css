@@ -1,0 +1,30 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 12px 24px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-container {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-item {
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 12px;
+  color: black;
+}
+
+.menu-item.active {
+  font-weight: bold;
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+}
