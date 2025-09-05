@@ -63,9 +63,9 @@ const HomePage = () => {
               <span className="cursor">|</span>
             </div>
             <p className="hero-description">
-              혁신적인 웹 솔루션과 사용자 경험을 만들어내는 개발자입니다.
+              혁신적인 웹/앱 기술과 사용자의 편리함을 만들어내는 개발자입니다.
               <br />
-              창의적인 아이디어와 기술적 전문성을 결합하여 가치 있는 프로덕트를 개발합니다.
+              창의적인 아이디어와 기술적 전문성을 결합해 가치 있는 서비스를 개발합니다.
             </p>
             
             <div className="hero-buttons">
@@ -106,7 +106,11 @@ const HomePage = () => {
       <section className="stats-section">
         <div className="stats-container">
           <div className="stat-item">
-            <div className="stat-number">5+</div>
+            <div className="stat-number">1</div>
+            <div className="stat-label">진행중인 프로젝트</div>
+          </div>
+          <div className="stat-item">
+            <div className="stat-number">5</div>
             <div className="stat-label">완료 프로젝트</div>
           </div>
           <div className="stat-item">
@@ -114,12 +118,12 @@ const HomePage = () => {
             <div className="stat-label">기술 스택</div>
           </div>
           <div className="stat-item">
-            <div className="stat-number">2+</div>
+            <div className="stat-number">2</div>
             <div className="stat-label">수상 경력</div>
           </div>
           <div className="stat-item">
             <div className="stat-number">6</div>
-            <div className="stat-label">개발 경력 (년)</div>
+            <div className="stat-label">개발 경험 (년)</div>
           </div>
         </div>
       </section>

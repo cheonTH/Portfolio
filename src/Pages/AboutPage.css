@@ -170,7 +170,7 @@ h2::after {
 }
 
 /* 특별한 카테고리 색상 */
-.front-container {
+/* .front-container {
   border-image: linear-gradient(135deg, #61dafb, #21aa58) 1;
 }
 
@@ -184,7 +184,7 @@ h2::after {
 
 .etc-container {
   border-image: linear-gradient(135deg, #a4c639, #ff6b35) 1;
-}
+} */
 
 /* 애니메이션 효과 */
 @keyframes fadeInUp {

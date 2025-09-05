@@ -3,7 +3,7 @@ import './AboutPage.css';
 
 const AboutPage = () => {
   return (
-    <div>
+    <div className='about-page'>
       <div className="profile-container">
         <h2>Profile</h2>
         <div>
@@ -28,17 +28,17 @@ const AboutPage = () => {
       <div className="education-container">
         <h2>Education</h2>
         <div>
-            <span>2025.2 ~ 2025.8 | 국비</span>
+            <span>2025.2 ~ 2025.8 | 국비 교육 - (스마트웹콘텐츠개발) AWS클라우드를 활용한 풀스택(React, SpringBoot) 개발 과정</span>
         </div>
       </div>
 
       <div className="prize-container">
         <h2>Prize</h2>
         <div>
-            <span>2024.06 | 2024 창업발명공모전 단체상</span>
+            <span>2024.06 | 2024 창업발명공모전 단체상 [(사)국제문화기술진흥원]</span>
         </div>
         <div>
-            <span>2022.12 | 공모전 수상 내용 적을 예정</span>
+            <span>2022.12 | 2022 IIBC Start-up Invention Contest (단체상) [(사)한국 인터넷 방송 통신 학회]</span>
         </div>
         
       </div>
