@@ -35,7 +35,7 @@ const AboutPage = () => {
       <div className="prize-container">
         <h2>Prize</h2>
         <div>
-            <span>2024.06 | 2024 창업발명공모전 단체상 [(사)국제문화기술진흥원]</span>
+            <span>2024.06 | 2024 창업발명공모전 (단체상) [(사)국제문화기술진흥원]</span>
         </div>
         <div>
             <span>2022.12 | 2022 IIBC Start-up Invention Contest (단체상) [(사)한국 인터넷 방송 통신 학회]</span>
@@ -49,23 +49,23 @@ const AboutPage = () => {
           <div className="card-grid">
             <div className="skill-card">
               <span>HTML</span>
-              <img src="/image/html_icon.png" alt="HTML" />
+              <img src={`${process.env.PUBLIC_URL}/html_icon.png`} alt="HTML" />
             </div>
             <div className="skill-card">
               <span>CSS</span>
-              <img src="/image/css_icon.png" alt="CSS" />
+              <img src={`${process.env.PUBLIC_URL}/css_icon.png`} alt="CSS" />
             </div>
             <div className="skill-card">
               <span>JavaScript</span>
-              <img src="/image/js_icon.png" alt="JS" />
+              <img src={`${process.env.PUBLIC_URL}/js_icon.png`} alt="JS" />
             </div>
             <div className="skill-card">
               <span>React</span>
-              <img src="/logo192.png" alt="React" />
+              <img src={`${process.env.PUBLIC_URL}/logo192.png`} alt="React" />
             </div>
             <div className="skill-card">
               <span>React Native</span>
-              <img src="/image/React-Native-Logo.png" alt="React Native" />
+              <img src={`${process.env.PUBLIC_URL}/React-Native-Logo.png`} alt="React Native" />
             </div>
           </div>
         </div>
@@ -75,15 +75,15 @@ const AboutPage = () => {
           <div className="card-grid">
             <div className="skill-card">
               <span>Java</span>
-              <img src="/image/java_icon.png" alt="Java" />
+              <img src={`${process.env.PUBLIC_URL}/java_icon.png`} alt="Java" />
             </div>
             <div className="skill-card">
               <span>Python</span>
-              <img src="/image/python_icon.png" alt="Python" />
+              <img src={`${process.env.PUBLIC_URL}/python_icon.png`} alt="Python" />
             </div>
             <div className="skill-card">
               <span>Spring Boot</span>
-              <img src="/image/springboot_icon.png" alt="Spring Boot" />
+              <img src={`${process.env.PUBLIC_URL}/springboot_icon.png`} alt="Spring Boot" />
             </div>
           </div>
         </div>
@@ -93,11 +93,11 @@ const AboutPage = () => {
           <div className="card-grid">
             <div className="skill-card">
               <span>Oracle</span>
-              <img src="/image/oracle_icon.png" alt="Oracle" />
+              <img src={`${process.env.PUBLIC_URL}/oracle_icon.png`} alt="Oracle" />
             </div>
             <div className="skill-card">
               <span>MySQL</span>
-              <img src="/image/mysql-logo.png" alt="MySQL" />
+              <img src={`${process.env.PUBLIC_URL}/mysql-logo.png`} alt="MySQL" />
             </div>
           </div>
         </div>
@@ -107,15 +107,15 @@ const AboutPage = () => {
           <div className="card-grid">
             <div className="skill-card">
               <span>Android</span>
-              <img src="/image/android-studio.png" alt="Android Studio" />
+              <img src={`${process.env.PUBLIC_URL}/android-studio.png`} alt="Android Studio" />
             </div>
             <div className="skill-card">
               <span>Raspberry Pi</span>
-              <img src="/image/raspberry-pi.png" alt="Raspberry Pi" />
+              <img src={`${process.env.PUBLIC_URL}/raspberry-pi.png`} alt="Raspberry Pi" />
             </div>
             <div className="skill-card">
               <span>Arduino</span>
-              <img src="/image/arduino-logo.png" alt="Arduino" />
+              <img src={`${process.env.PUBLIC_URL}/arduino-logo.png`} alt="Arduino" />
             </div>
           </div>
         </div>

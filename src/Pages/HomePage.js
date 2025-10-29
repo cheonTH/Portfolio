@@ -106,7 +106,7 @@ const HomePage = () => {
       <section className="stats-section">
         <div className="stats-container">
           <div className="stat-item">
-            <div className="stat-number">1</div>
+            <div className="stat-number">2</div>
             <div className="stat-label">진행중인 프로젝트</div>
           </div>
           <div className="stat-item">
